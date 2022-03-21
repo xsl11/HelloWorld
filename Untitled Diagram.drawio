@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T04:20:34.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="Cg1L-_ffSzwsS1-vn5Jc" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T04:23:31.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="iQWQ3a8JIW7GTiOVFyc0" version="17.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2609" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="79.93" y="130" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="单通道寻峰结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="739.93" y="1060" width="120" height="30" as="geometry" />
+          <mxGeometry x="789.9699999999999" y="1070" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J0x9XYsGi_vWjbkLP-mo-0" target="J0x9XYsGi_vWjbkLP-mo-4">
           <mxGeometry relative="1" as="geometry" />
@@ -189,6 +189,14 @@
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-53" value="kalmanDataNum&amp;lt;FITNUM?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="594.93" y="420" width="220" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="J0x9XYsGi_vWjbkLP-mo-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J0x9XYsGi_vWjbkLP-mo-57" target="J0x9XYsGi_vWjbkLP-mo-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="670" />
+              <mxPoint x="985" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-57" value="保存本次寻峰数据&lt;br&gt;peakPosHist" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="924.93" y="435" width="120" height="50" as="geometry" />
         </mxCell>
@@ -242,13 +250,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-74" value="卡尔曼预测值&lt;br&gt;kalman_pre" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="639.93" y="890" width="320" height="40" as="geometry" />
+          <mxGeometry x="639.93" y="890" width="420.07" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J0x9XYsGi_vWjbkLP-mo-77" target="WIyWlLk6GJQsqaUBKTNV-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-77" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;kalmanDataNum++&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="739.93" y="990" width="120" height="30" as="geometry" />
+          <mxGeometry x="789.9699999999999" y="1000" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J0x9XYsGi_vWjbkLP-mo-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J0x9XYsGi_vWjbkLP-mo-86" target="J0x9XYsGi_vWjbkLP-mo-61">
           <mxGeometry relative="1" as="geometry" />
