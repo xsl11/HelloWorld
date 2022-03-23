@@ -1,1 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T11:51:17.811Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" version="17.1.5" etag="YRZ7Ubdm-n4690TnfWIU" type="github"><diagram id="WWWYlEykzjOD-qigbcss">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-23T12:18:35.092Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="_BjoDJWnVMl8K7L86Zs4" version="17.1.5" type="github">
+  <diagram id="WWWYlEykzjOD-qigbcss" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LwAtH2Occlvfq7zxx06t-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-1" target="LwAtH2Occlvfq7zxx06t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-1" value="波长校准(含功率补偿)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-4" target="LwAtH2Occlvfq7zxx06t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-4" value="计算气体吸收谱的二阶后向差分&lt;br&gt;提取跳模点mode_chg_point&lt;br&gt;跳模数mode_chg_num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-5" target="LwAtH2Occlvfq7zxx06t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-5" value="多次采集平均后的&lt;br&gt;MZ延时相干谱&lt;br&gt;气体吸收谱" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-9" target="LwAtH2Occlvfq7zxx06t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-9" value="气体吸收谱谱峰识别&lt;br&gt;peakDetect_Gas" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-11" target="LwAtH2Occlvfq7zxx06t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-11" value="以跳模点为分割点将气体谱进行区间分割&lt;br&gt;区间数=mode_chg_num+1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="490" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-13" target="LwAtH2Occlvfq7zxx06t-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-13" value="i=0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="580" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-19" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-16" target="LwAtH2Occlvfq7zxx06t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-38" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-16" target="LwAtH2Occlvfq7zxx06t-24">
+          <mxGeometry x="-0.9338" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-16" value="i&amp;lt;mode_chg_num?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="650" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-18" target="LwAtH2Occlvfq7zxx06t-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-18" value="针对相邻跳模点区间，下采样提取型值点[mode_chg_point[i],mode_chg_point[i+1])&lt;br&gt;（若采样点位于吸收峰附近则剔除该样点）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="760" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-20" target="LwAtH2Occlvfq7zxx06t-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-20" value="&lt;b&gt;B样条插值&lt;/b&gt;&lt;br&gt;根据型值点坐标和取值，计算B样条控制点和基函数，并根据插值点坐标计算插值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="880" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-22" target="LwAtH2Occlvfq7zxx06t-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-22" value="保存插值后的功率变化趋势" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1010" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-24" target="LwAtH2Occlvfq7zxx06t-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-24" value="&lt;b&gt;功率补偿&lt;/b&gt;&lt;br&gt;根据功率变化趋势进行MZ延时谱和气体吸收谱的功率补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503.75" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-26" target="LwAtH2Occlvfq7zxx06t-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-26" value="气体吸收谱寻峰&lt;br&gt;peakFind_Gas" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="528.75" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-30" target="LwAtH2Occlvfq7zxx06t-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-30" value="根据MZ输出功率变化计算各点相位大小" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="516.25" y="380" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-35" target="LwAtH2Occlvfq7zxx06t-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="630" />
+              <mxPoint x="270" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-35" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwAtH2Occlvfq7zxx06t-39" target="LwAtH2Occlvfq7zxx06t-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-39" value="结合气体吸收峰绝对波长作为校准参考点，结合相关关系进行在线波长校准" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="217.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwAtH2Occlvfq7zxx06t-43" value="波长校准结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528.75" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
