@@ -1,70 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T02:35:44.512Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="O7f3DkOKUKiI3D9jxxyW" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T13:58:22.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="tUY1H6KNwjMN-W0IcnX6" version="18.0.3" type="github">
   <diagram id="peR7CpNWSgqiuJcx23xG" name="Page-1">
-    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1174" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LWnQqeCSydBJWmkykCLa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-1" target="LWnQqeCSydBJWmkykCLa-3">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-1" target="LWnQqeCSydBJWmkykCLa-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-1" value="尺度分解特征检测算法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="60" width="130" height="40" as="geometry" />
+        <mxCell id="LWnQqeCSydBJWmkykCLa-1" value="基于特征识别的多峰检测算法" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="60" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-2" target="LWnQqeCSydBJWmkykCLa-6">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-2" target="LWnQqeCSydBJWmkykCLa-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-2" value="可变尺度高斯差分核函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-2" value="可变尺度高斯差分核函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="82.5" y="230" width="145" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-3" target="LWnQqeCSydBJWmkykCLa-2">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-3" target="LWnQqeCSydBJWmkykCLa-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-3" value="尺度因子sigma" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-3" value="尺度因子sigma" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="150" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-6" target="LWnQqeCSydBJWmkykCLa-8">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-6" target="LWnQqeCSydBJWmkykCLa-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-6" value="卷积获取信号在&lt;br&gt;各尺度下的分解" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-6" value="卷积获取信号在&lt;br&gt;各尺度下的分解" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-8" target="LWnQqeCSydBJWmkykCLa-10">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-8" target="LWnQqeCSydBJWmkykCLa-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-8" value="DoG尺度分解空间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-8" value="DoG尺度分解空间" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-10" target="LWnQqeCSydBJWmkykCLa-12">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LWnQqeCSydBJWmkykCLa-10" target="LWnQqeCSydBJWmkykCLa-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-10" value="尺度间极值检测作为候选峰值特征点" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-10" value="尺度间极值检测作为候选峰值特征点" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-12" target="LWnQqeCSydBJWmkykCLa-16">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-12" target="LWnQqeCSydBJWmkykCLa-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-12" value="从小到大排序特征点的对比度&lt;br&gt;采用DBSCAN算法获取阈值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-12" value="从小到大排序特征点的对比度&lt;br&gt;采用DBSCAN算法获取阈值" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="357.5" y="70" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-16" target="LWnQqeCSydBJWmkykCLa-18">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-16" target="LWnQqeCSydBJWmkykCLa-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-16" value="剔除噪声和假峰特征点" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-16" value="剔除噪声和假峰特征点" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="170" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-18" target="LWnQqeCSydBJWmkykCLa-20">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-18" target="LWnQqeCSydBJWmkykCLa-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-18" value="将峰位从小到大排序" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-18" value="将峰位从小到大排序" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="280" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LWnQqeCSydBJWmkykCLa-20" target="LWnQqeCSydBJWmkykCLa-24">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-20" target="LWnQqeCSydBJWmkykCLa-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-20" value="输出峰数和峰位信息" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-20" value="输出峰数和峰位信息" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="372.5" y="405" width="165" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-24" value="算法结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-24" value="算法结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
