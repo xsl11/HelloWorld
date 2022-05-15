@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T13:58:31.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="aCTwdtJvvd3MyGYRNA5J" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T13:59:13.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="Mtwsnw1PhwNxaDt553DI" version="18.0.3" type="github">
   <diagram id="peR7CpNWSgqiuJcx23xG" name="Page-1">
     <mxGraphModel dx="1174" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,11 +22,11 @@
         <mxCell id="LWnQqeCSydBJWmkykCLa-3" value="尺度因子sigma" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="150" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-6" target="LWnQqeCSydBJWmkykCLa-8" edge="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-9" value="相邻尺度间差分" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-6" target="LWnQqeCSydBJWmkykCLa-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LWnQqeCSydBJWmkykCLa-6" value="卷积获取信号在&lt;br&gt;各尺度下的分解" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="95" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="95" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LWnQqeCSydBJWmkykCLa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-8" target="LWnQqeCSydBJWmkykCLa-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -37,7 +37,7 @@
         <mxCell id="LWnQqeCSydBJWmkykCLa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LWnQqeCSydBJWmkykCLa-10" target="LWnQqeCSydBJWmkykCLa-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWnQqeCSydBJWmkykCLa-10" value="尺度间极值检测作为候选峰值特征点" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="LWnQqeCSydBJWmkykCLa-10" value="尺度间极值检测&lt;br&gt;作为候选峰值特征点" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LWnQqeCSydBJWmkykCLa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LWnQqeCSydBJWmkykCLa-12" target="LWnQqeCSydBJWmkykCLa-16" edge="1">
