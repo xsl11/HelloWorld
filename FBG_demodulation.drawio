@@ -1,1 +1,340 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T17:44:01.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" version="18.0.4" etag="VvOtg7WWoDE1w46XvG2E" type="github"><diagram id="l36F3T30o2_LhY5GRLuw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-21T17:50:08.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="SMfGOv08ti32komDJr4E" version="18.0.4" type="github">
+  <diagram id="l36F3T30o2_LhY5GRLuw" name="Page-1">
+    <mxGraphModel dx="1957" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SFswVxVIUamAtrgum1b2-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#CC0000;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-2" target="SFswVxVIUamAtrgum1b2-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-2" value="寻峰解调算法" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="104.93" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-5" target="SFswVxVIUamAtrgum1b2-10">
+          <mxGeometry x="-0.911" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="14" y="190" />
+              <mxPoint x="14" y="500" />
+              <mxPoint x="165" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-5" target="SFswVxVIUamAtrgum1b2-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-5" value="存在谱峰失锁?&lt;br&gt;(lock_start==1&amp;amp;lock_status==0)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="42.93000000000001" y="160" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-6" value="单通道寻峰结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="809.9699999999998" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-7" value="峰位peakPos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-8" target="SFswVxVIUamAtrgum1b2-10">
+          <mxGeometry x="0.1765" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="259.93000000000006" y="430" as="sourcePoint" />
+            <mxPoint x="259.93000000000006" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-8" value="&lt;b&gt;多峰检测算法&lt;/b&gt;&lt;br&gt;①导数法&lt;br&gt;②特征识别法" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="104.93" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-10" target="SFswVxVIUamAtrgum1b2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-10" value="&lt;b&gt;谱峰信息提取&lt;/b&gt;&lt;br&gt;峰数peakNum&lt;br&gt;峰宽peakwid、峰高peakH&lt;br&gt;峰度peak_kurt&lt;br&gt;对称度peak_sym" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="85" y="530" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-12" target="SFswVxVIUamAtrgum1b2-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-12" value="第i=0个峰" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="129.93" y="630" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-13" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-15" target="SFswVxVIUamAtrgum1b2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-14" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-15" target="SFswVxVIUamAtrgum1b2-21">
+          <mxGeometry x="-0.6306" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="802" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-15" value="对称度和峰度符合条件?&lt;br&gt;(peak_kurt&amp;lt;0.1&amp;amp;peak_sym&amp;lt;0.1)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="49.93000000000001" y="759.75" width="230" height="84.75" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-17" target="SFswVxVIUamAtrgum1b2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-17" value="提取FWHM拟合区间&lt;br&gt;拟合点数FIT_NUM&lt;br&gt;样点间隔&lt;br&gt;interval=[peakwid/FIT_NUM]" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="79.94000000000001" y="882.75" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-19" target="SFswVxVIUamAtrgum1b2-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="1037.75" />
+              <mxPoint x="165" y="1037.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-19" value="&lt;b&gt;传统寻峰算法&lt;/b&gt;&lt;br&gt;最大值/3dB/质心&lt;br&gt;多项式/高斯多项式&lt;br&gt;高斯LM" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="104.93" y="980" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-21" target="SFswVxVIUamAtrgum1b2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-21" value="提取edge拟合区间&lt;br&gt;thrL=0.2&lt;br&gt;thrH=0.8" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="269.93" y="825.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-22" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-24" target="SFswVxVIUamAtrgum1b2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-23" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-24" target="SFswVxVIUamAtrgum1b2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-24" value="锁定状态？&lt;br&gt;(lock_status=1)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="267.43" y="900" width="125" height="52.75" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-26" target="SFswVxVIUamAtrgum1b2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-26" value="双边限幅高斯拟合" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="269.93" y="990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-28" target="SFswVxVIUamAtrgum1b2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-28" value="保存最大幅值MAXAMP&lt;br&gt;和高斯标准差SIGMA" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="259.93" y="1037.75" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-30" target="SFswVxVIUamAtrgum1b2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-30" value="取MAXAMP和SIGMA的均值" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="419.86" y="962.75" width="165.07" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-32" target="SFswVxVIUamAtrgum1b2-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="1112.75" />
+              <mxPoint x="495" y="1112.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-32" value="&lt;b&gt;双边限幅限宽高斯拟合&lt;/b&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="427.40000000000003" y="1037.75" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-34" target="SFswVxVIUamAtrgum1b2-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674.93" y="125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1123" />
+              <mxPoint x="600" y="60" />
+              <mxPoint x="725" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-34" value="峰位peakPos 峰高peakH" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="94.93" y="1107.75" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-35" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-37" target="SFswVxVIUamAtrgum1b2-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="724.93" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-36" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-37" target="SFswVxVIUamAtrgum1b2-47">
+          <mxGeometry x="-0.9229" relative="1" as="geometry">
+            <mxPoint x="634.93" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="115" />
+              <mxPoint x="625" y="370" />
+              <mxPoint x="725" y="370" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-37" value="锁定开启？&lt;br&gt;(lock_start=1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660.3899999999999" y="80" width="129.07" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-38" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-40" target="SFswVxVIUamAtrgum1b2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-39" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-40" target="SFswVxVIUamAtrgum1b2-44">
+          <mxGeometry x="-0.5615" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-40" value="&lt;span&gt;失锁状态?&lt;/span&gt;&lt;br&gt;&lt;span&gt;(kalman_pre-peakPos&amp;lt;&lt;br&gt;lock_region)&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644.93" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-42" target="SFswVxVIUamAtrgum1b2-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-42" value="标记失锁的谱峰&lt;br&gt;lcok_status=1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664.93" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-44" target="SFswVxVIUamAtrgum1b2-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-44" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;lcok_status=0&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="824.93" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-45" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-47" target="SFswVxVIUamAtrgum1b2-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-46" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-47" target="SFswVxVIUamAtrgum1b2-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-47" value="kalman数据累积未完成？&lt;br&gt;(kalmanDataNum&amp;lt;FITNUM)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614.93" y="405" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-49" target="SFswVxVIUamAtrgum1b2-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="710" />
+              <mxPoint x="950" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-49" value="保存本次寻峰数据&lt;br&gt;peakPosHist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-50" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-52" target="SFswVxVIUamAtrgum1b2-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-51" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-52" target="SFswVxVIUamAtrgum1b2-56">
+          <mxGeometry x="-0.6459" relative="1" as="geometry">
+            <mxPoint x="884.93" y="740" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-52" value="一维kalman跟踪滤波？&lt;br&gt;(KALMANTYPE=1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="636.96" y="652.5" width="175.93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-54" target="SFswVxVIUamAtrgum1b2-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="850" />
+              <mxPoint x="870" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-54" value="1Dkalman滤波" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664.93" y="780" width="120" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-56" target="SFswVxVIUamAtrgum1b2-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-56" value="二次多项式拟合预估速度和加速度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="824.93" y="719.75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-58" target="SFswVxVIUamAtrgum1b2-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="850" />
+              <mxPoint x="870" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-58" value="2Dkalman滤波" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="824.93" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-60" target="SFswVxVIUamAtrgum1b2-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-60" value="保存本次寻峰数据&lt;br&gt;peakPosHist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664.93" y="511" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-61" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-71" target="SFswVxVIUamAtrgum1b2-69">
+          <mxGeometry x="-0.9682" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="970" />
+              <mxPoint x="1070" y="30" />
+              <mxPoint x="460" y="30" />
+              <mxPoint x="460" y="668" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-63" target="SFswVxVIUamAtrgum1b2-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-63" value="卡尔曼预测值&lt;br&gt;kalman_pre" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684.93" y="875" width="370.07" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-65" target="SFswVxVIUamAtrgum1b2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-65" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;kalmanDataNum++&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809.9599999999998" y="1047.75" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-67" target="SFswVxVIUamAtrgum1b2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-67" value="开启谱峰锁定&lt;br&gt;lock_start=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664.93" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-69" target="SFswVxVIUamAtrgum1b2-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="670" />
+              <mxPoint x="165" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-69" value="i++" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="279.93" y="652.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-70" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-71" target="SFswVxVIUamAtrgum1b2-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-71" value="单通道内谱峰解算完成？&lt;br&gt;(i&amp;gt;=peakNum)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="761.97" y="940" width="215.98" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-73" target="SFswVxVIUamAtrgum1b2-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-73" value="重置跟踪滤波&lt;br&gt;lock_start=0&lt;br&gt;lock_status=0&lt;br&gt;kalmanDataNum=0" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="104.93" y="250" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-75" target="SFswVxVIUamAtrgum1b2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-75" value="单峰区间低通滤波&lt;br&gt;(均值/中值/fir/小波)" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="89.9" y="690" width="150.07" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-77" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-79" target="SFswVxVIUamAtrgum1b2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-79" target="SFswVxVIUamAtrgum1b2-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-79" value="多峰检测状态?&lt;br&gt;(InitFlag==1)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="64.93" y="70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-81" target="SFswVxVIUamAtrgum1b2-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="340" />
+              <mxPoint x="165" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-81" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;InitFlag=0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="303.93" y="240" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFswVxVIUamAtrgum1b2-83" target="SFswVxVIUamAtrgum1b2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFswVxVIUamAtrgum1b2-83" value="低通滤波&lt;br&gt;(均值/中值/fir/小波)" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="105" y="370" width="120" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
