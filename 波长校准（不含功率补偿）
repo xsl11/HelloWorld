@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T15:15:16.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" version="19.0.3" etag="uo4pYJVBHCi9HP_unQak" type="github"><diagram id="-OmExpFyDiyWsRz-bkuy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-09T15:18:23.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="9pZ_YJY10C8dVemzCQK1" version="19.0.3" type="github">
+  <diagram id="-OmExpFyDiyWsRz-bkuy" name="Page-1">
+    <mxGraphModel dx="984" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vd7Q3mX__AdQm114CCU1-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vd7Q3mX__AdQm114CCU1-2" target="vd7Q3mX__AdQm114CCU1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-2" value="波长校准" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="70" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vd7Q3mX__AdQm114CCU1-23" target="vd7Q3mX__AdQm114CCU1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-23" value="气体吸收谱寻峰&lt;br&gt;peakFind_Gas" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vd7Q3mX__AdQm114CCU1-25" target="vd7Q3mX__AdQm114CCU1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-25" value="根据MZ输出功率变化计算各点相位大小" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="280" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-28" value="波长校准结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vd7Q3mX__AdQm114CCU1-30" target="vd7Q3mX__AdQm114CCU1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-30" value="根据多个参考吸收峰的波长和相位计算绝对波长参考点" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vd7Q3mX__AdQm114CCU1-32" target="vd7Q3mX__AdQm114CCU1-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-32" value="提取MZ投射正弦谱的斜率最大点，并计算对应点的波长" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vd7Q3mX__AdQm114CCU1-34" target="vd7Q3mX__AdQm114CCU1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd7Q3mX__AdQm114CCU1-34" value="以斜率最大点作为插值点，进行B样条插值获取校准波长轴" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
